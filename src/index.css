@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+:root {
+    --nav-bar: #58a1c9;
+    --primary-color: #4b8fbc;
+    --secondary-color: #3a749b;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+
+    background: url(./svg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/* navigation bar */
+
+.navbar {
+    margin: 0px 35px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f2f2f2;
+    background-position: left;
+}
+
+.navbar .links {
+    margin-left: auto;
+}
+
+.navbar h1 {
+    font-size: 30px;
+    font-weight: 300;
+    color: var(--nav-bar);
+}
+
+.navbar a {
+    font-size: 24px;
+    font-weight: 100;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navbar a:hover {
+    color: var(--nav-bar);
+    font-weight: 300;
+}
+
+/* content container */
+
+.content {
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+/* posts previews / list */
+
+.post-preview {
+    padding: 10px 16px;
+    border-bottom: 1px solid #fafafa;
+}
+
+.post-preview:hover {
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-preview a {
+    color: black;
+    text-decoration: none;
+}
+
+.post-preview p {
+    color: #000;
+    font-size: 14px;
+}
+
+.post-preview h2 {
+    margin-left: 0;
+    color: var(--secondary-color);
+    margin-bottom: 8px;
+}
+
+/* post details */
+
+article {
+    margin-right: 70px;
+    border: 2px solid #f2f2f2;
+}
+
+.post-details button {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #b73434;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.post-details button:hover {
+    transform: scale(1.1);
+}
+
+.post-details h2 {
+    text-align: center;
+    margin: 30px 30px;
+    color: var(--primary-color);
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 36px;
+}
+
+.post-details p {
+    margin: 30px 30px;
+    font-size: 16px;
+    color: var(--secondary-color);
+    border-top: 1px solid #f2f2f2;
+}
+
+.post-details div {
+    margin: 30px 30px;
+    font-size: 14px;
+}
+
+/* create new blog form */
+.create {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+    text-align: center;
+}
+
+.create label {
+    color: var(--secondary-color);
+    border-bottom: 1px solid var(--secondary-color);
+    font-size: 18px;
+    text-align: left;
+    display: block;
+}
+
+.create h2 {
+    font-size: 20px;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.create form {
+    width: 350px;
+    height: 350px;
+}
+
+.create input {
+    width: 100%;
+    height: 32px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    display: block;
+}
+
+.create textarea {
+    margin-top: 10px;
+    width: 98%;
+    height: 120px;
+    border: 1px solid #ddd;
+    font-family: 'Poppins', sans-serif;
+    resize: vertical;
+}
+
+.create button {
+    width: 150px;
+    height: 40px;
+    background: var(--nav-bar);
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}

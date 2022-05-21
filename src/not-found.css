@@ -1,0 +1,31 @@
+.not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-found h2 {
+    font-size: 38px;
+}
+
+.not-found p {
+    text-transform: uppercase;
+}
+
+.not-found button {
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(0deg, rgba(142, 209, 252, 1) 0%, rgba(160, 11, 107, 0.7007396708683473) 94%);
+    border-radius: 90px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.not-found button:hover {
+    transform: scale(1.1);
+}
