@@ -22,7 +22,7 @@
 
 ![screenshot](/screenshot.png)
 
-This is React project, inspired by [The Net Ninja](https://www.youtube.com/c/TheNetNinja), where users can create and delete posts. <br>
+This is ReactJS project, inspired by [The Net Ninja](https://www.youtube.com/c/TheNetNinja), where users can create and delete posts. <br>
 I created and deployed [Fake REST API](https://github.com/boryana-k/fake-server-blog-posts) and created a database for storing posts data (heading, text and author). <br>
 This project helped me for learning more about React components & routing, state management, async code, built-in & custom hooks.
 
@@ -31,7 +31,7 @@ This project helped me for learning more about React components & routing, state
 ### Built With
 
 
-- React
+- ReactJS
 - JSON
 - JavaScript, HTML & CSS
 
